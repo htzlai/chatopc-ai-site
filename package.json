@@ -1,0 +1,12 @@
+{
+  "name": "chatopc-ai-site",
+  "version": "1.0.0",
+  "description": "ChatOPC - AI Platform for One Person Company",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["chatopc", "ai", "one-person-company", "chat"],
+  "author": "ChatOPC Team",
+  "license": "MIT"
+}

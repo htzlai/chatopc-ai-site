@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>ChatOPC - 一人公司的AI伙伴</title>
+  <meta name="description" content="ChatOPC 是专为一人公司打造的 AI 工作平台，让个人也能拥有团队的力量。">
+  <meta name="theme-color" content="#f8f8f7">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header Navigation -->
+    <header class="header">
+      <nav class="nav-container">
+        <a href="/" class="logo">
+          <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 16C10 12.6863 12.6863 10 16 10C19.3137 10 22 12.6863 22 16C22 19.3137 19.3137 22 16 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="3" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">ChatOPC</span>
+        </a>
+        
+        <div class="nav-links">
+          <a href="#features" class="nav-link">功能</a>
+          <a href="#use-cases" class="nav-link">场景</a>
+          <a href="#pricing" class="nav-link">价格</a>
+        </div>
+        
+        <div class="nav-actions">
+          <button class="btn btn-primary">开始使用</button>
+          <button class="btn btn-outline">了解更多</button>
+        </div>
+        
+        <button class="mobile-menu-btn" aria-label="菜单">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="main-content">
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-title-line">一人公司，</span>
+            <span class="hero-title-line italic">无限可能</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            ChatOPC 是你的 AI 伙伴，让一个人也能做出团队级别的成果
+          </p>
+          
+          <!-- Chat Input -->
+          <div class="chat-container">
+            <div class="chat-input-wrapper">
+              <textarea 
+                class="chat-input" 
+                placeholder="告诉我你想做什么，或者问我任何问题..."
+                rows="1"
+              ></textarea>
+              <div class="chat-actions">
+                <button class="chat-action-btn" aria-label="添加附件">
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M3 10H17" stroke="currentColor" stroke-width="2"/>
+                    <path d="M10 3V17" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </button>
+                <button class="chat-submit-btn" aria-label="发送">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M8 14V2M8 2L3 7M8 2L13 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Quick Action Tags -->
+          <div class="quick-actions">
+            <button class="action-tag">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M3 9h18"/>
+                <path d="M9 21V9"/>
+              </svg>
+              <span>制作网站</span>
+            </button>
+            <button class="action-tag">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+              <span>写商业计划</span>
+            </button>
+            <button class="action-tag">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              <span>设计PPT</span>
+            </button>
+            <button class="action-tag">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+              <span>数据分析</span>
+            </button>
+            <button class="action-tag action-tag-more">
+              <span>更多</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature Cards Section -->
+      <section class="features-section" id="features">
+        <h2 class="section-title">你可以用它做什么？</h2>
+        
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">智能文案助手</h3>
+              <p class="feature-card-desc">为你的产品、服务撰写吸引人的营销文案，让每一个字都精准打动目标客户。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-write">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 20h9"/>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">专业网站构建</h3>
+              <p class="feature-card-desc">无需代码，快速创建专业级网站，完美展示你的个人品牌和业务。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-web">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">财务数据整理</h3>
+              <p class="feature-card-desc">自动整理发票、账单，生成清晰的财务报表，让你轻松掌控收支。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-finance">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <line x1="12" y1="1" x2="12" y2="23"/>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">客户管理系统</h3>
+              <p class="feature-card-desc">记录客户信息、跟进状态，AI 自动提醒重要事项，不漏掉任何商机。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-crm">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">社媒内容规划</h3>
+              <p class="feature-card-desc">智能生成社交媒体内容日历，自动适配各平台风格，持续输出优质内容。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-social">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-card-content">
+              <h3 class="feature-card-title">自动化工作流</h3>
+              <p class="feature-card-desc">连接你常用的工具，自动化重复性工作，节省时间专注核心业务。</p>
+            </div>
+            <div class="feature-card-image">
+              <div class="feature-icon feature-icon-auto">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polyline points="16 3 21 3 21 8"/>
+                  <line x1="4" y1="20" x2="21" y2="3"/>
+                  <polyline points="21 16 21 21 16 21"/>
+                  <line x1="15" y1="15" x2="21" y2="21"/>
+                  <line x1="4" y1="4" x2="9" y2="9"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="features-more">
+          <button class="btn btn-outline">探索更多功能</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-main">
+          <h2 class="footer-tagline">
+            <span class="footer-tagline-main">更少束缚，</span>
+            <span class="footer-tagline-sub">更多智慧。</span>
+          </h2>
+          
+          <div class="footer-links">
+            <div class="footer-col">
+              <h3 class="footer-col-title">产品</h3>
+              <a href="#" class="footer-link">功能介绍</a>
+              <a href="#" class="footer-link">定价方案</a>
+              <a href="#" class="footer-link">更新日志</a>
+              <a href="#" class="footer-link">API 文档</a>
+            </div>
+            
+            <div class="footer-col">
+              <h3 class="footer-col-title">资源</h3>
+              <a href="#" class="footer-link">使用教程</a>
+              <a href="#" class="footer-link">案例展示</a>
+              <a href="#" class="footer-link">帮助中心</a>
+              <a href="#" class="footer-link">博客文章</a>
+            </div>
+            
+            <div class="footer-col">
+              <h3 class="footer-col-title">公司</h3>
+              <a href="#" class="footer-link">关于我们</a>
+              <a href="#" class="footer-link">联系方式</a>
+              <a href="#" class="footer-link">加入团队</a>
+              <a href="#" class="footer-link">合作伙伴</a>
+            </div>
+            
+            <div class="footer-col">
+              <h3 class="footer-col-title">法律</h3>
+              <a href="#" class="footer-link">服务条款</a>
+              <a href="#" class="footer-link">隐私政策</a>
+              <a href="#" class="footer-link">Cookie 设置</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="微信">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.858h-.407zm-2.53 3.823c.535 0 .969.44.969.983a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.983.97-.983zm4.844 0c.535 0 .969.44.969.983a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.983.969-.983z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="微博">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M10.098 20.323c-3.977.391-7.414-1.406-7.672-4.02-.259-2.609 2.759-5.047 6.74-5.441 3.979-.394 7.413 1.404 7.671 4.018.259 2.6-2.759 5.049-6.737 5.443m8.358-6.848c-.282-.089-.481-.152-.338-.546.317-.853.35-1.59.006-2.117-.644-1.013-2.405-1.203-4.406-1.203l-.002-.004c-.546.011-.955.045-1.243.08-.291.034-.389-.104-.327-.409.156-.774.129-1.422-.125-1.97-.582-1.246-2.183-1.788-4.527-1.788l.002-.003c-3.098.01-6.464 1.17-8.797 3.208-1.781 1.551-2.63 3.291-2.63 4.857 0 2.994 3.847 4.816 7.61 4.816.055 0 .11 0 .165-.001 4.65-.136 8.693-2.282 9.56-5.072.188-.608.131-1.098-.058-1.416-.167-.28-.449-.431-.728-.521l-.002.004.058-.004.024.025c.014.02.039.049.076.095l.01.009c.156.21.345.452.533.563.177.104.433.151.723.115.242-.03.465-.125.65-.307.216-.214.336-.541.382-.911.074-.596-.022-1.277-.341-1.818-.29-.499-.723-.806-1.172-.816m.949 1.612c.103.235.14.476.1.673-.03.149-.12.267-.267.347-.13.07-.317.118-.516.133l-.084-.004c-.238-.017-.39-.103-.5-.212-.13-.128-.214-.29-.284-.423-.046-.087-.095-.181-.168-.28a.884.884 0 0 0-.146-.139c-.057-.038-.116-.068-.175-.093.047-.01.096-.02.15-.028l.027-.004c.131-.017.277-.026.424-.022l.059.003c.19.009.384.037.565.088.22.063.424.162.583.349.106.123.18.311.23.463v.003c-.003.073.003.096.002.146"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="footer-language">
+            <button class="language-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              <span>简体中文</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <div class="footer-copyright">
+          <div class="footer-logo">
+            <svg class="logo-icon" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+              <path d="M10 16C10 12.6863 12.6863 10 16 10C19.3137 10 22 12.6863 22 16C22 19.3137 19.3137 22 16 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="16" cy="16" r="3" fill="currentColor"/>
+            </svg>
+            <span>ChatOPC</span>
+          </div>
+          <p>© 2026 ChatOPC. 让一人公司拥有无限可能。</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
