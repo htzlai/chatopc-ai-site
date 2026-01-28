@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/my_project_chatopc-ai-site-1_849a0c3f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__576c7cbd._.js")
+R.c("server/chunks/ssr/49600_next_dist_esm_build_templates_app-page_e4d130e7.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2655e525._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fade5e0b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__998bdcb2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0a3b90b3._.js")
+R.c("server/chunks/ssr/49600_next_dist_client_components_8a3f5c94._.js")
+R.c("server/chunks/ssr/49600_next_dist_client_components_builtin_forbidden_32133ece.js")
+R.c("server/chunks/ssr/5af9b_chatopc-ai-site-1__next-internal_server_app__not-found_page_actions_f2e64c78.js")
+R.m(56038)
+module.exports=R.m(56038).exports

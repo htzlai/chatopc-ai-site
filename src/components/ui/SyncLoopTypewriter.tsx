@@ -32,7 +32,7 @@ export default function SyncLoopTypewriter({
 }: SyncLoopTypewriterProps) {
   const [displayedText, setDisplayedText] = useState('');
   const timerRef = useRef<NodeJS.Timeout | null>(null);
-  const updateRef = useRef<() => void>();
+  const updateRef = useRef<() => void | undefined>(undefined);
 
   // 确保 text 存在
   if (!text) {

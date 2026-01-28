@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[902,["/_next/static/chunks/578c5cd8186ad705.js","/_next/static/chunks/861e10eafb63e81e.js"],"ViewportBoundary"]
+3:I[902,["/_next/static/chunks/578c5cd8186ad705.js","/_next/static/chunks/861e10eafb63e81e.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"9DDGUsKyBzpiZQQ4GnM1q","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"ChatOPC - 一人公司的 AI 伙伴"}],["$","meta","1",{"name":"description","content":"专为一人公司（One Person Company）打造的 AI 对话聊天平台。模型在通缩，整合在溢价。让一个人也能拥有团队级别的能力，用 AI 重构工作流，建立信任壁垒。"}],["$","meta","2",{"name":"keywords","content":"一人公司,OPC,AI助手,自动化,副业,兼职,AI整合,工作流,ChatOPC,AI工具"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
