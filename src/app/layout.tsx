@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ChatOPC - 一人公司的 AI 伙伴",
+  title: "ChatOPC - 一人公司的 AI 操作系统",
   description: "专为一人公司（One Person Company）打造的 AI 对话聊天平台。模型在通缩，整合在溢价。让一个人也能拥有团队级别的能力，用 AI 重构工作流，建立信任壁垒。",
   keywords: ["一人公司", "OPC", "AI助手", "自动化", "副业", "兼职", "AI整合", "工作流", "ChatOPC", "AI工具"],
 };

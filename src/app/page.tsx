@@ -114,10 +114,10 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="mb-4"
             >
-              <div className="text-base font-medium tracking-wide text-[var(--color-primary)]">
-                <span>一人公司 · </span>
+              <div className="text-xl font-medium tracking-wide text-gradient">
+                <span>一人公司，</span>
                 <SyncLoopTypewriter 
-                  text="AI 赋能时代"
+                  text="不再是一个人"
                   speed={120}
                   deleteSpeed={60}
                   pauseTime={2000}
@@ -131,10 +131,10 @@ export default function Home() {
               transition={{ delay: 0.3 }}
               className="mb-10"
             >
-              <p className="text-base text-[var(--color-text-muted)] font-medium tracking-wider">
-                <span>One Person Company · </span>
+              <p className="text-xl text-white font-medium tracking-wider">
+                <span>One Person Company, </span>
                 <SyncLoopTypewriter 
-                  text="AI-Powered Era"
+                  text="Not Alone"
                   speed={120}
                   deleteSpeed={60}
                   pauseTime={2000}
@@ -149,8 +149,8 @@ export default function Home() {
               <span className="text-gradient block">{t.home.titleHighlight}</span>
             </h1>
 
-            {/* Subheading - 优化可读性和留白 */}
-            <p className="mx-auto mb-12 max-w-3xl text-lg text-white/90 lg:text-xl leading-relaxed font-medium px-4">
+            {/* Subheading - 双句分行、可读性与留白 */}
+            <p className="mx-auto mb-12 max-w-2xl text-lg text-white/90 lg:text-xl leading-[1.75] font-medium px-4 whitespace-pre-line">
               {t.home.subtitle}
             </p>
 
@@ -302,16 +302,6 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <a 
-                href="https://molycure.tech" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block"
-              >
-                <Badge variant="secondary" size="md" className="mb-4 hover:opacity-80 transition-opacity cursor-pointer">
-                  {t.home.about.badge}
-                </Badge>
-              </a>
               <h2 className="mb-6 text-3xl font-bold text-white lg:text-4xl">
                 {t.home.about.title}
               </h2>
